@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split #used 2 separate data as tr
 from sklearn.naive_bayes import MultinomialNB #counts words in text
 
 #load the dataset 2 pandas data frame for manupulating the data
-raw_data = pd.read_csv("D:\Projects\ML Projects\Deploy ML Project\Spam Mail Detection\spamham.csv", encoding = 'latin-1')
+raw_data = pd.read_csv("spamham.csv", encoding = 'latin-1')
 
 #now v hv 2 replace null values with null string otherwise it will show errors
 #v will store this in variable claaed "mail_data"
